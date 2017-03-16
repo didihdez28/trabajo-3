@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!--Importar la fuente de los íconos de Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <title>Blog TurismO</title>
+</head>
+<body>
+  <div class="row">
+    <div class="s12 col amber darken-5 barra-superior">
+      <div class="row">
+        <div class="s12 m8 l5 col contenedor-logo-buscar">
+          <img src="img/1.png" alt="ShareUrCode" class="logo"/>
+          <p> Colombia, el riesgo es que te quieras quedar...</p>
+        </div>
+          <div class="card-action">
+            <a href="#">Inicio|</a>
+            <a href="#">Estuve en|</a>
+            <a href="#">Mejores Viajes|</a>
+            <a href="#">Recomendaciones</a>
+          </div>
+        </div>
+      </div>
+    <div class="s2 m2 l2 col blue-grey lighten-5 columna-grupos push-s10">
+      <div class="collection">
+        <a class="collection-item avatar">
+          <img src="img/ig.png" alt="" class="circle"/>
+        </a>
+        <a class="collection-item avatar">
+          <img src="img/fb.png" alt="" class="circle"/>
+        </a>
+        <a class="collection-item avatar">
+          <img src="img/tt.png" alt="" class="circle">
+        </a>
+        <a class="collection-item avatar">
+          <img src="img/pp.png" alt="" class="circle">
+        </a>
+        <a class="collection-item avatar">
+          <img src="img/yt.png" alt="" class="circle">
+        </a>
+      </div>
+    </div>
+    <div class="s10 m7 l7 col white columna-principal pull-s2 z-depth-1">
+      <div class="row">
+        <div class="s12 m12 l8 col white columna-publicaciones">
+          <div class="contenedor-publicacion card amber lighten-4">
+            <div class="card-content blue-grey white-text">
+              <div class="card-image">
+                <img src="img/2.jpg" alt="" class="responsive-img"/>
+                <img src="img/3.jpg" alt="" class="responsive-img"/>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-publicacion card amber lighten-4">
+            <div class="card-content blue-grey white-text">
+              <span class="card-title activator">Caño Cristales<i class="material-icons right">more_vert</i></span>
+              <p>
+                ¡Lo Maximo!
+              </p>
+              <blockquote>
+                <img src="img/6.jpg" alt="" class="responsive-img">
+                Caño Cristales (La Macarena, Meta, Colombia) es considerado por muchos como el “Río más Hermoso del Mundo”. Pareciera exagerado el cumplido, pero solamente visitándolo es posible dimensionar la belleza de este paraíso colombiano. Durante muchos años ha estado totalmente cerrado al turismo. Pero hoy es posible visitarlo con total tranquilidad y con vuelos directos desde Bogotá, Medellín y Villavicencio.
+              </blockquote>
+              <div class="collection-item avatar blue-grey white-text">
+                <i class="material-icons circle">people</i>
+                <span class="title">Comentarios</span>
+                <form>
+                  <textarea id="publicacion-texto"></textarea>
+                  <button class="btn-flat waves-effect waves-light blue-grey white-text right hide-on-small-only" type="submit" name="action"><i class="material-icons right">send</i></button>
+                  <button class="btn-floating waves-effect waves-light blue-grey white-text right hide-on-med-and-up" type="submit" name="action"><i class="material-icons right">send</i></button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="l3 offset-l1 col white columna-news hide-on-med-and-down">
+          <div class="contenedor-noticias amber lighten-4">
+            <h5 class="center-align">Otros</h5>
+            <img src="img/4.jpg" class="responsive-img"/>
+            <img src="img/5.jpg" class="responsive-img"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="m3 l3 col white columna-chat hide-on-small-only">
+      <div class="row">
+        <div class="s12 m12 l12 col bloque-feed">
+          <ul class="collection with-header avatar">
+            <h5>Nuevos</h5>
+            <li class="collection-item avatar blue-grey white-text">
+              <img src="img/6.jpg" alt="" class="responsive-img"/>
+            </li>
+            <li class="collection-item avatar blue-grey white-text">
+              <img src="img/7.jpg" alt="" class="responsive-img"/>
+            </li>
+            <li class="collection-item avatar blue-grey white-text">
+              <img src="img/8.jpg" alt="" class="responsive-img"/>
+            </li>
+          </ul>
+        </div>
+        <div class="s12 m12 l12 col bloque-chat">
+          <ul class="collection with-header">
+            <li class="collection-header grey lighten-1"><h5>Perfil de Autor</h5></li>
+            <li class="collection-item grey lighten-1">
+              <div class="me">
+                <img src="img/me.png" class="responsive-img">
+                <p>Si alguien te ama lo suficiente luchara por ti.... con cualquier motivo y hará lo que sea por tiii...</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="fixed-action-btn hide-on-small-only" style="bottom: 45px; right: 90vw;">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons amber darken-4">build</i>
+      </a>
+      <ul>
+        <li><a class="btn-floating red"><i class="material-icons">notifications_active</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">share</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">lock_open</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">volume_off</i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
